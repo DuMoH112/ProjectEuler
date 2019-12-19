@@ -34,6 +34,8 @@ def main():
         if number == 1:
             break
     print('Самый большой делитель числа 600851475143, являющися простым числом: ', max(lst))
+    print(lst)
+
 
 
 def timerange(toctic):
