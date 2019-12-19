@@ -11,7 +11,7 @@ def dividers(number):
     for i in range(2, int(sqrt(number)) + 1):
         if number % i == 0:
             lst.append(i)
-            lst.append(number / i)
+            lst.append(number // i)
 
     return lst
 
